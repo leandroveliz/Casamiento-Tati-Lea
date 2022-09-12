@@ -80,7 +80,7 @@ let interval = setInterval(function(){
                   );
                 });
 //Audio
-const cargarSonido = function (fuente) {
+/*const cargarSonido = function (fuente) {
   const sonido = document.createElement("audio");
   sonido.src = fuente;
   sonido.setAttribute("preload", "auto");
@@ -102,4 +102,4 @@ $botonPausar.onclick = () => {
 };
 $botonReiniciar.onclick = () => {
   sonido.currentTime = 0;
-};
+};*/
