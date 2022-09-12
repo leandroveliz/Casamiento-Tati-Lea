@@ -96,6 +96,10 @@ header{
   align-items: center;
 }
 
+.colorLink{
+  text-decoration: none;
+  color: white;
+}
 
 .wave{
   position: absolute;
