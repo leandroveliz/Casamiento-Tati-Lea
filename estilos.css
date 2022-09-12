@@ -107,6 +107,11 @@ header{
   width: 100%;
 }
 
+.tamanioUbicacion{
+  width: 30px;
+  height: 30px;
+}
+
 .wave2{
   position: absolute;
   top: 0;
