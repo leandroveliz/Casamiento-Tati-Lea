@@ -99,8 +99,8 @@ header{
 }
 
 .tamanioUbicacion{
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
 }
 
 .botones{
@@ -112,4 +112,8 @@ header{
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.imgBorde{
+  border-radius: 10px;
 }
