@@ -100,6 +100,3 @@ $botonReproducir.onclick = () => {
 $botonPausar.onclick = () => {
   sonido.pause();
 };
-/*$botonReiniciar.onclick = () => {
-  sonido.currentTime = 0;
-};*/
