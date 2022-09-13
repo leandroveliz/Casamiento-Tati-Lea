@@ -41,6 +41,10 @@
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
     /* Styles */ }
 
+body{
+    background-image: url(./imagen/depositphotos_215919568-stock-photo-white-roses-on-wooden-background.jpg);
+    background-repeat:round;
+}
 
 header{
   background-size: cover;
@@ -66,12 +70,6 @@ header{
   height: 300px;
 }
 
-.fondo{
-    background-image: url(./imagen/depositphotos_215919568-stock-photo-white-roses-on-wooden-background.jpg);
-    background-repeat:round;
-    color: white;
-}
-
 .tamanioLetraTit{
     font-size:50px;
 }
@@ -87,13 +85,6 @@ header{
     border-bottom:solid 1.5px rgba(255, 255, 255, 0.307);
     border-left:solid 1.5px rgba(255, 255, 255, 0.307);
     border-radius: 20px;
-}
-
-.padreFlex {
-  display: flex;  
-  flex-direction: row; 
-  justify-content: center; 
-  align-items: center;
 }
 
 .colorLink{
@@ -113,8 +104,8 @@ header{
 }
 
 .botones{
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
 }
 
 .wave2{

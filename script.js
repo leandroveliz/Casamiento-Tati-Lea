@@ -89,17 +89,17 @@ const cargarSonido = function (fuente) {
   document.body.appendChild(sonido);
   return sonido;
 };
-const $botonReproducir = document.querySelector("#btnReproducir");
-  //$botonPausar = document.querySelector("#btnPausar"),
+const $botonReproducir = document.querySelector("#btnReproducir"),
+  $botonPausar = document.querySelector("#btnPausar");
   //$botonReiniciar = document.querySelector("#btnReiniciar");*/
 // El sonido que podemos reproducir o pausar
 const sonido = cargarSonido("./audio/All of Me  John Legend.mp3");
 $botonReproducir.onclick = () => {
   sonido.play();
 };
-/*$botonPausar.onclick = () => {
+$botonPausar.onclick = () => {
   sonido.pause();
 };
-$botonReiniciar.onclick = () => {
+/*$botonReiniciar.onclick = () => {
   sonido.currentTime = 0;
 };*/

@@ -17,30 +17,29 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body class="letraDancing body" id="btnReproducir">
-  
-  <header>
+<body class="letraDancing body">
+  <article style="text-align: end;">
+    <audio>
+      <source src="./audio/All of Me  John Legend.mp3" type="audio/mp3">
+      <source src="./audio/All of Me  John Legend.ogg" type="audio/ogg">
+    </audio>
+    <img id="btnPausar" src="./imagen/mute.png" class="botones"></img>
+  </article>
+  <header id="btnReproducir">
     <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
         
       <div class="carousel-inner">
         <div class="carousel-item active" id="top-container">
             <img src="./imagen/poses-para-bodas-modernas-800x445.jpg" class="d-block w-100">
           </div>
-          <div class="carousel-caption d-md-block ">
-            <article>
-              <audio>
-                <source src="./audio/All of Me  John Legend.mp3" type="audio/mp3">
-                <source src="./audio/All of Me  John Legend.ogg" type="audio/ogg">
-              </audio>
-              <!--<img id="btnReproducir"src="./imagen/jugar.png" class="botones"></img>
-              <img id="btnPausar" src="./imagen/boton-de-pausa.png" class="botones"></img>
-              <img id="btnReiniciar" src="./imagen/recargar.png" class="botones"></img>-->
-            </article>
-              <div class="container-fluid text-center">
+          <div class="carousel-caption d-md-block">
+            
+              <div class="container-fluid text-center" >
                 <h1 class="display-6">Nos Casamos </h1> 
                 <p class="display-6">Tatiana & Leandro!</p>
                 <p class="display-6">04/02/2023</p>
               </div>
+              
         </div>
       </div>
     </div>
@@ -49,8 +48,8 @@
     
   </header>
 
-    
-  <main class="fondo">
+  
+  <main class="fondo color">
     <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
       
         <div class="carousel-inner">
