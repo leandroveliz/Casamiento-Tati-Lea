@@ -112,6 +112,11 @@ header{
   height: 30px;
 }
 
+.botones{
+  width: 15px;
+  height: 15px;
+}
+
 .wave2{
   position: absolute;
   top: 0;
